@@ -18,8 +18,8 @@ for (env_item in [list_env]) {
                     git {
                       remote {
                         // credentials('')
-                        url('https://github.com/mauserkar/jenkins-dsl.git')
-                        branch('develop')
+                        url('https://bitbucket.org/crauserkar/jenkins-dsl.git')
+                        branch('main')
                       }
                     }
                   }
