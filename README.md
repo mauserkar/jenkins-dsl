@@ -27,4 +27,3 @@ docker run -d \
       -p 50000:50000 \
       jenkins-dsl 
 ```
-
