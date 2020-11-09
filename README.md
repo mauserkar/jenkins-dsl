@@ -3,7 +3,7 @@
 ## Folder structure
 - **build: resource:** Build jenkins docker image  
 - **jobs-dsl-files:** Files to create jobs when dsl job (dsl-builder) is triggered
-- **jobs-dsl-scripts:** Pipeline files
+- **jobs-dsl-pipelines:** Pipeline files
 
 ## Usage
 ### run container

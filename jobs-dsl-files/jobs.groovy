@@ -11,6 +11,7 @@ for (env_item in [list_env]) {
           parameters {
             stringParam('JOB_NAME', job_name, 'product/app name to deploy')
             stringParam('ENV', env_name, 'Environment')
+
           }
           definition {
               cpsScm {
@@ -18,12 +19,12 @@ for (env_item in [list_env]) {
                     git {
                       remote {
                         // credentials('')
-                        url('https://bitbucket.org/crauserkar/jenkins-dsl.git')
-                        branch('main')
+                        url('https://github.com/mauserkar/jenkins-dsl.git')
+                        branch('master')
                       }
                     }
                   }
-                  scriptPath('jobs-dsl-scripts/pipeline.groovy')
+                  scriptPath('jobs-dsl-pipelines/pipeline-demo.groovy')
               }
           }
         }
